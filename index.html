@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6fa6f5ee65.js" crossorigin="anonymous"></script>
+    <title>CKR Web Design</title>
+</head>
+<body>
+    
+    <div class="loader"></div>
+
+    <!-- HEADER -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/CKR.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="projects.html">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="membership.html">Üyelik</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hi! I'm Eren Kaan Çakır</p>
+                <h1><span>I'm a Front-End Developer</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/ME.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me!</h1>
+                    <h2 class="title-color">Portfolio</h2>
+                    <p style="font-size: 18px;">
+                        I am studying at the Department of Software Engineering at TED University, which I entered in 2021. I have intermediate knowledge in HTML, CSS, Java and SwiftUI languages. I have C1 level English and I am improving myself in this field. In the future, I aim to do my specialization in the field of Front-End Development..
+                    </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Systems</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Lorem, ipsum.</span><br>Lorem, ipsum dolor.</li>
+                            <li><span>Lorem, ipsum.</span><br>Lorem, ipsum dolor.</li>
+                            <li><span>Lorem, ipsum.</span><br>Lorem, ipsum dolor.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Lorem, ipsum.</span><br>Lorem, ipsum.</li>
+                            <li><span>Lorem, ipsum.</span><br>Lorem, ipsum dolor.</li>
+                            <li><span>Lorem, ipsum.</span><br>Lorem, ipsum dolor.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Lorem, ipsum.</span><br>Lorem, ipsum dolor.</li>
+                            <li><span>Lorem, ipsum.</span><br>Lorem, ipsum dolor.</li>
+                            <li><span>Lorem, ipsum.</span><br>Lorem, ipsum dolor.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WRAPPER -->
+
+    <section id="section_counter">
+        <div class="container">
+          <div class="counter-grid">
+            <div class="counter-item">
+              <img decoding="async" src="https://retgen.com/wp-content/uploads/2022/12/sayac-dunya.png" style="width: 50px; height: 50px; text-align: center;" class="attachment-large size-large wp-image-76 counter-img" alt="" loading="lazy" width="57" height="59">
+              <h1 class="counter" data-target="5">0</h1>
+              <p style="font-size: 20px; color: #fff;">Projects</p>
+            </div>
+            <div class="counter-item">
+                <img decoding="async" src="https://retgen.com/wp-content/uploads/2022/12/sayac-ucak.png" style="width: 50px; height: 50px; text-align: center;" class="attachment-large size-large wp-image-77 counter-img" alt="" loading="lazy" width="63" height="63">
+              <h1 class="counter" data-target="10">0</h1>
+              <p style="font-size: 20px; color: #fff;">Certificate</p>
+            </div>
+            <div class="counter-item">
+                <img decoding="async" src="https://retgen.com/wp-content/uploads/2022/12/sayac-simsek.png" style="width: 50px; height: 50px; text-align: center;" class="attachment-large size-large wp-image-78 counter-img" alt="" loading="lazy" width="67" height="67">
+              <h1 class="counter" data-target="20">0</h1>
+              <p style="font-size: 20px; color: #fff;">Services</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Çözümlerimiz</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perferendis, voluptas iste deleniti quisquam ex, saepe laboriosam, suscipit fugit accusantium eius minima nesciunt et iusto aperiam? Hic, voluptatum praesentium! Neque, perferendis eos? Distinctio, aut suscipit? Est quod esse inventore provident voluptatum hic et asperiores. Sunt eligendi quibusdam doloribus mollitia ea!</p>
+                    <a href="about-us.html">Daha Fazla</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bolt"></i>
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perferendis, voluptas iste deleniti quisquam ex, saepe laboriosam, suscipit fugit accusantium eius minima nesciunt et iusto aperiam? Hic, voluptatum praesentium! Neque, perferendis eos? Distinctio, aut suscipit? Est quod esse inventore provident voluptatum hic et asperiores. Sunt eligendi quibusdam doloribus mollitia ea!</p>
+                    <a href="about-us.html">Daha Fazla</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lock"></i>
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perferendis, voluptas iste deleniti quisquam ex, saepe laboriosam, suscipit fugit accusantium eius minima nesciunt et iusto aperiam? Hic, voluptatum praesentium! Neque, perferendis eos? Distinctio, aut suscipit? Est quod esse inventore provident voluptatum hic et asperiores. Sunt eligendi quibusdam doloribus mollitia ea!</p>
+                    <a href="about-us.html">Daha Fazla</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Servislerimiz</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/work-1.png">
+                    <div class="layer">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, provident.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/work-2.png">
+                    <div class="layer">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, provident.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/work-3.png">
+                    <div class="layer">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, provident.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="about-us.html" class="btn3">Daha Fazla</a>
+        </div>
+    </div>
+
+
+    <!-- CONTACT -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title mt-5">İletişim</h1>
+                    <p style="font-size: 20px; color: #fff;"><i class="fa-solid fa-paper-plane"></i>erenkaancakr@gmail.com</p>
+                    <p style="font-size: 20px; color: #fff;"><i class="fa-solid fa-square-phone"></i>+90 5075991192</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="assets/EKC.pdf" download class="btn3">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="İsminiz" required>
+                        <input type="email" name="Email" placeholder="Mail Adresiniz" required>
+                        <textarea name="Message" rows="6" placeholder="Mesajınız"></textarea>
+                        <button type="submit" class="btn btn2">Gönder</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Eren Kaan Çakır. Made with Berke Beyazbenli </p>
+        </div>
+    </div>
+
+<script src="js/loader.js"></script>
+<script src="js/script.js"></script>
+<script src="js/about.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/count.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwjkTVmcfnlgOdCpiDHlw2q-l3pOAuHZfMZ6mlCODV6n05MRTWaTgQ34Igu9E_ZWmNz/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })  
+</script>
+</body>
+</html>
