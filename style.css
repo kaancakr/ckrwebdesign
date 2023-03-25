@@ -428,13 +428,6 @@ nav .fa-solid{
     #header{
         background-image: url(assets/93.jpg);
     }
-    .header-text{
-        margin-top: 100%;
-        font-size: 16px;
-    }
-    .header-text h1{
-        font-size: 30px;
-    }
     nav .fa-solid{
         display: block;
         font-size: 25px;
@@ -548,6 +541,40 @@ nav .fa-solid{
         width: 90vw;
         flex-wrap: wrap;
         gap: 30px;
+    }
+
+    .header-text{
+        font-size: 20px;
+        margin-top: 80%;
+    }
+
+    .container .text{
+        position: relative;
+        color: #13693e;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: -50px;
+    }
+    .container .text.first-text{
+        color: #FFF;
+    }
+    .text.sec-text:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-left: 4px solid #fff;
+        animation: animate 4s steps(12) infinite;
+    }
+    @keyframes animate{
+        40%, 60%{
+            left: calc(100% + 4px);
+        }
+        100%{
+            left: 0%;
+        }
     }
 }
 
@@ -667,7 +694,7 @@ section:not(#section_counter) {
 .container .text{
     position: relative;
     color: #13693e;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 600;
 }
 .container .text.first-text{
@@ -680,7 +707,7 @@ section:not(#section_counter) {
     left: 0;
     height: 100%;
     width: 100%;
-    border-left: 4px solid #fff;
+    border-left: 8px solid #fff;
     animation: animate 4s steps(12) infinite;
 }
 @keyframes animate{
