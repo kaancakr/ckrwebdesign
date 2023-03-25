@@ -647,3 +647,18 @@ section:not(#section_counter) {
     display: block;
     font-size: 16px;
 }
+
+.fa-diagram-project{
+    font-size: 40px;
+    color: #fff;
+}
+
+.fa-medal {
+    font-size: 40px;
+    color: #fff;
+}
+
+.fa-flask-vial{
+    font-size: 40px;
+    color: #fff;
+}
