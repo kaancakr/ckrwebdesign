@@ -663,3 +663,32 @@ section:not(#section_counter) {
     font-size: 40px;
     color: #fff;
 }
+
+.container .text{
+    position: relative;
+    color: #13693e;
+    font-size: 50px;
+    font-weight: 600;
+}
+.container .text.first-text{
+    color: #FFF;
+}
+.text.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 4px solid #fff;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+ 
