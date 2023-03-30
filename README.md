@@ -5,6 +5,7 @@ Bu site benim **bireysel** bilgilerimi, yetkinliklerimi ve becerilerimi gösterm
 This site is my personal website to show and announce my **personal** knowledge, competencies and skills.
 
 Bu sitenin yapımında ve taslağında ilham aldığım kanal olan **easy tutorials** kanalını aşağıdaki linkten ziyaret edebilirsiniz:
+
 You can visit the **easy tutorials** channel, which is the channel I was inspired by in the making and drafting of this site, from the link below:
 
 https://www.youtube.com/@EasyTutorialsVideo
