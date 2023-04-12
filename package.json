@@ -1,0 +1,28 @@
+{
+  "name": "new_website",
+  "version": "1.0.0",
+  "description": "Bu site benim **bireysel** bilgilerimi, yetkinliklerimi ve becerilerimi göstermek ve duyurmak amacıyla yaptığım kişisel websitemdir.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaancakr/ckrwebdesign.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaancakr/ckrwebdesign/issues"
+  },
+  "homepage": "https://github.com/kaancakr/ckrwebdesign#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
